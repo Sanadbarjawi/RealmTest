@@ -7,13 +7,28 @@
 //
 
 import UIKit
-
+import RealmSwift
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        addHuman()
     }
 
+    func addHuman(){
+        let mike = Human()
+        mike.name = "Mike"
+        mike.age = 23
+        mike.nationality = "Jordanian"
+        
+        let realm = try! Realm()
+      try! realm.write {
+            realm.add(mike)
+        print("Added \(mike.name) to Realm")
+        }
+        
+        
+    }
 
 
 
