@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163838801FA3D2160050A530 /* AllRealmObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1638387F1FA3D2160050A530 /* AllRealmObjects.swift */; };
 		168299301FA3C90000D5CEFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1682992F1FA3C90000D5CEFF /* AppDelegate.swift */; };
 		168299321FA3C90000D5CEFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168299311FA3C90000D5CEFF /* ViewController.swift */; };
 		168299351FA3C90000D5CEFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 168299331FA3C90000D5CEFF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		0E2C1E6850D46E48CB2267EF /* Pods_Realm_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Realm_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1638387F1FA3D2160050A530 /* AllRealmObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRealmObjects.swift; sourceTree = "<group>"; };
 		1682992C1FA3C90000D5CEFF /* Realm Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Realm Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1682992F1FA3C90000D5CEFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		168299311FA3C90000D5CEFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				1682993B1FA3C90000D5CEFF /* LaunchScreen.storyboard */,
 				1682993E1FA3C90000D5CEFF /* Info.plist */,
 				168299361FA3C90000D5CEFF /* Realm_Test.xcdatamodeld */,
+				1638387F1FA3D2160050A530 /* AllRealmObjects.swift */,
 			);
 			path = "Realm Test";
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				163838801FA3D2160050A530 /* AllRealmObjects.swift in Sources */,
 				168299321FA3C90000D5CEFF /* ViewController.swift in Sources */,
 				168299301FA3C90000D5CEFF /* AppDelegate.swift in Sources */,
 				168299381FA3C90000D5CEFF /* Realm_Test.xcdatamodeld in Sources */,
